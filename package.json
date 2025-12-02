@@ -1,0 +1,23 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+     "cypress-test-headless": "npx cypress run",
+    "playwright-test-headless": "npx playwright test",
+    "cypress-test-ui": "npx cypress open",
+    "playwright-test-ui": "npx playwright test --ui"
+  },
+  "dependencies": {
+    "cypress": "^15.7.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^10.1.0",
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^24.10.1"
+  }
+}
